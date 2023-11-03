@@ -7,3 +7,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* 
+    MAIN
+*/
+
+main{
+    background-color: black;
+    width: 1vw;
+}
+
+/* 
+    FOOTER
+*/
+
+footer{
+    background-color: rgb(34, 34, 34);
+}
+
+.end-meeting{
+    background-color: rgb(74, 74, 74);
+}
