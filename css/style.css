@@ -14,6 +14,8 @@
 .border-radius{
     border-radius: 10px;
 }
+
+
 /* 
     FLEXBOX
 */
@@ -40,8 +42,19 @@ main{
     align-items: center;
 }
 
+.speaker-exp button{
+    background-color: black;
+    border-style: none;
+    font-size: 1em;
+}
+
 img{
     display: block;
+}
+
+.container-card{
+    width: 90%;
+    margin: 0 auto;
 }
 
 .card{
@@ -58,7 +71,6 @@ img{
     color: white;
     padding: 10px;
     background-color: rgba(100, 100, 100, 0.8);
-
 }
 
 .user-image{
@@ -74,8 +86,43 @@ img{
 footer{
     background-color: rgb(34, 34, 34);
     height: 60px;
+    color: white;
 }
 
-.end-meeting{
+.footer-container{
+    justify-content: space-between;  
+    align-items: center;
+    height: 100%; 
+}
+
+.footer-content{
+    height: 100%;
+    align-content: center;
+}
+
+.footer-content > *{
+    margin: auto 10px;
+    text-align: center;
+}
+
+footer button:hover{
     background-color: rgb(74, 74, 74);
 }
+
+footer button:last-child:hover{
+    background-color: rgb(100, 100, 100);
+}
+
+.footer-container button{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer-container button.end-meeting{
+    color: red;
+    background-color: rgb(74, 74, 74);
+}
+
